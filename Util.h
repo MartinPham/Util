@@ -23,7 +23,6 @@
 
 
 +(NSString *) docPath;
-+ (UIImage *)convertImageToGrayScale:(UIImage *)image;
 +(UIImage *) imageFromColor:(UIColor *)color size:(CGSize) size;
 + (UIColor *)colorFromHexString:(NSString *)hexString;
 typedef enum __UIImageGradientDirection
